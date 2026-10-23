@@ -86,8 +86,7 @@ export type Overrides<S extends StateMutability> = S extends 'nonpayable'
     : ViewOverrides;
 
 export type PostfixOverrides<A extends Array<any>, S extends StateMutability> =
-  | A
-  | [...A, Overrides<S>];
+  A | [...A, Overrides<S>];
 export type ContractMethodArgs<
   A extends Array<any>,
   S extends StateMutability,

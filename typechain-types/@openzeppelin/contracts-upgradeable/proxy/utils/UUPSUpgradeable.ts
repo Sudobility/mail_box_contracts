@@ -26,9 +26,7 @@ import type {
 export interface UUPSUpgradeableInterface extends Interface {
   getFunction(
     nameOrSignature:
-      | 'UPGRADE_INTERFACE_VERSION'
-      | 'proxiableUUID'
-      | 'upgradeToAndCall'
+      'UPGRADE_INTERFACE_VERSION' | 'proxiableUUID' | 'upgradeToAndCall'
   ): FunctionFragment;
 
   getEvent(nameOrSignatureOrTopic: 'Initialized' | 'Upgraded'): EventFragment;

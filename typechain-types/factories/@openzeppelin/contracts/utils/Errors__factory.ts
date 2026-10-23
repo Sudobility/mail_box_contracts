@@ -58,8 +58,7 @@ const _bytecode =
   '0x60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220dcf6fef9bdee0a2c32c287cc6aabdc9ec4f704aea12441fdb62ac7f887c8d75864736f6c63430008180033';
 
 type ErrorsConstructorParams =
-  | [signer?: Signer]
-  | ConstructorParameters<typeof ContractFactory>;
+  [signer?: Signer] | ConstructorParameters<typeof ContractFactory>;
 
 const isSuperArgs = (
   xs: ErrorsConstructorParams
