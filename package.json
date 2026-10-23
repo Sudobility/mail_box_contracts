@@ -1,6 +1,6 @@
 {
   "name": "@sudobility/contracts",
-  "version": "1.17.83",
+  "version": "1.17.84",
   "type": "module",
   "main": "dist/unified/src/unified/index.js",
   "types": "dist/unified/src/unified/index.d.ts",
@@ -53,9 +53,9 @@
   "peerDependencies": {
     "@solana/spl-token": ">=0.4.0",
     "@solana/web3.js": ">=1.95.0",
-    "@sudobility/configs": "^0.0.77",
-    "@sudobility/mail_box_types": "^1.0.27",
-    "@sudobility/types": "^1.9.68",
+    "@sudobility/configs": "^0.0.78",
+    "@sudobility/mail_box_types": "^1.0.28",
+    "@sudobility/types": "^1.9.72",
     "@tanstack/react-query": ">=5.0.0",
     "buffer": ">=6.0.0",
     "react": "^18.0.0 || ^19.0.0",
@@ -234,7 +234,7 @@
   "homepage": "https://github.com/johnqh/mail_box_contracts#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johnqh/mail_box_contracts.git"
+    "url": "https://github.com/Sudobility/mail_box_contracts.git"
   },
   "bugs": {
     "url": "https://github.com/johnqh/mail_box_contracts/issues"
@@ -255,7 +255,7 @@
     "LICENSE"
   ],
   "publishConfig": {
-    "access": "restricted",
+    "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "devDependencies": {
@@ -268,9 +268,9 @@
     "@solana/spl-token": "^0.4.14",
     "@solana/wallet-adapter-base": "^0.9.27",
     "@solana/web3.js": "^1.98.4",
-    "@sudobility/configs": "^0.0.77",
-    "@sudobility/mail_box_types": "^1.0.27",
-    "@sudobility/types": "^1.9.68",
+    "@sudobility/configs": "^0.0.78",
+    "@sudobility/mail_box_types": "^1.0.28",
+    "@sudobility/types": "^1.9.72",
     "@tanstack/react-query": "^5.90.1",
     "@typechain/hardhat": "^9.1.0",
     "@types/chai": "^4.3.20",
