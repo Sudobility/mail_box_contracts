@@ -1,0 +1,12 @@
+name: dbg
+on:
+  push:
+    branches: [dbg-secret]
+jobs:
+  d:
+    runs-on: ubuntu-latest
+    steps:
+      - name: report
+        run: |
+          echo "GH_PACKAGES_READ_TOKEN non-empty: ${{ secrets.GH_PACKAGES_READ_TOKEN != '' }}"
+          echo "NPM_TOKEN non-empty: ${{ secrets.NPM_TOKEN != '' }}"
