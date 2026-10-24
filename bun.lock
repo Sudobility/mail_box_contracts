@@ -17,8 +17,8 @@
         "@solana/spl-token": "~0.4.15",
         "@solana/wallet-adapter-base": "~0.9.28",
         "@solana/web3.js": "~1.99.0",
-        "@sudobility/configs": "^0.0.82",
-        "@sudobility/mail_box_types": "^1.0.32",
+        "@sudobility/configs": "^0.0.83",
+        "@sudobility/mail_box_types": "^1.0.33",
         "@sudobility/types": "^1.9.76",
         "@tanstack/react-query": "~5.104.5",
         "@typechain/hardhat": "~9.1.0",
@@ -49,8 +49,8 @@
       "peerDependencies": {
         "@solana/spl-token": ">=0.4.0",
         "@solana/web3.js": ">=1.95.0",
-        "@sudobility/configs": "^0.0.82",
-        "@sudobility/mail_box_types": "^1.0.32",
+        "@sudobility/configs": "^0.0.83",
+        "@sudobility/mail_box_types": "^1.0.33",
         "@sudobility/types": "^1.9.76",
         "@tanstack/react-query": ">=5.0.0",
         "buffer": ">=6.0.0",
@@ -397,9 +397,9 @@
 
     "@solidity-parser/parser": ["@solidity-parser/parser@0.20.2", "", {}, "sha512-rbu0bzwNvMcwAjH86hiEAcOeRI2EeK8zCkHDrFykh/Al8mvJeFmjy3UrE7GYQjNwOgbGUUtCn5/k8CB8zIu7QA=="],
 
-    "@sudobility/configs": ["@sudobility/configs@0.0.82", "https://npm.pkg.github.com/download/@sudobility/configs/0.0.82/d96d848cbdd890d7dc569f2c7e27343359bb3332", { "peerDependencies": { "@sudobility/types": "^1.9.76" } }, "sha512-5bQ/mlFALd/jrflAg1y+JhIRzt6NOMUmo2JDNxZHOZCHDD802X73lthSsLryZCGu1KZ42rJ4UavIqoIGlhfjIQ=="],
+    "@sudobility/configs": ["@sudobility/configs@0.0.83", "https://npm.pkg.github.com/download/@sudobility/configs/0.0.83/11f849daf8566a85eb67df0bb0ed7fb47e4d3ea4", { "peerDependencies": { "@sudobility/types": "^1.9.76" } }, "sha512-oIPtIRTpZzJepbkuuiF10AjjvWyke1o2t7kVoIt6KkUqCzyAYs6QbhYOLv9glwcwqMCK1GQZ1Qzdv983iuv6Fw=="],
 
-    "@sudobility/mail_box_types": ["@sudobility/mail_box_types@1.0.32", "https://npm.pkg.github.com/download/@sudobility/mail_box_types/1.0.32/723c4939b41137e5c1fe5ff5339ad95e5590f3f3", { "peerDependencies": { "@sudobility/types": "^1.9.76" } }, "sha512-fzydv5lzXqK4iBGo6nTGNXYQRXygXrqdMvDAjoxthJ1Hry/adjEdJTg2AS66MVtqDUOTpRdTjpIZkAn8ttYAIA=="],
+    "@sudobility/mail_box_types": ["@sudobility/mail_box_types@1.0.33", "https://npm.pkg.github.com/download/@sudobility/mail_box_types/1.0.33/83360abc730061b51204049feee5b8cbb68a5acc", { "peerDependencies": { "@sudobility/types": "^1.9.76" } }, "sha512-yo4DJRGuOW1cb+lKjEHup+YXDO0fVB1xuLMde4iVd5jO9wDb6rKfBIZpNsjrGRaQBsi5+Jh5KOwDNLMarUP3AA=="],
 
     "@sudobility/types": ["@sudobility/types@1.9.76", "https://npm.pkg.github.com/download/@sudobility/types/1.9.76/71635156f72fd9461107d5f147b3dc1c49f863d0", {}, "sha512-b7maZHR5wM84VlQ+l9R+2guzSOrExog6OUNy1oCe7h0abW13syycmnLQL0g+qql0aQ84qTB4A0mJelhY3Vef4Q=="],
 
@@ -851,7 +851,7 @@
 
     "ieee754": ["ieee754@1.2.1", "", {}, "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA=="],
 
-    "ignore": ["ignore@7.0.13", "", {}, "sha512-2E8Q6rh+1RRSq/YdaGsNfXsEZy9FVqv6BSSrkmZJP7BnaoPnRfKL+YaofPvP+5rzdk144qSm6i4+hvPgUcbV4Q=="],
+    "ignore": ["ignore@7.0.14", "", {}, "sha512-wCBiZ77u1tuWde6G/nfOtLaCTYcFDU5yCzARzK10y+rLhzYoL7a7yEemcopcc2Mzow7gZOIjnV2ym1NYmdiJOQ=="],
 
     "immutable": ["immutable@4.3.9", "", {}, "sha512-ObHy4YN7ycwZOUCLI1/6svfyAFu7vL8RhAvVu/bh/RZW9EPlOyDaQ9jDQWCtdqzaXUjgXZCW1migtHE7YI7UGQ=="],
 
@@ -1307,7 +1307,7 @@
 
     "v8-compile-cache-lib": ["v8-compile-cache-lib@3.0.1", "", {}, "sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg=="],
 
-    "viem": ["viem@2.57.10", "", { "dependencies": { "@noble/curves": "1.9.1", "@noble/hashes": "1.8.0", "@scure/bip32": "1.7.0", "@scure/bip39": "1.6.0", "abitype": "1.2.3", "isows": "1.0.7", "ox": "0.14.57", "ws": "8.21.0" }, "peerDependencies": { "typescript": ">=5.0.4" }, "optionalPeers": ["typescript"] }, "sha512-gQ6aELkfwvJDeWObxdOwWIQw8coUJhKhXDbyXCMOzzopU1F8s5Xs4l1HWQ4uaXa/uJ1/3uz8DiBU+RozllxPhw=="],
+    "viem": ["viem@2.57.11", "", { "dependencies": { "@noble/curves": "1.9.1", "@noble/hashes": "1.8.0", "@scure/bip32": "1.7.0", "@scure/bip39": "1.6.0", "abitype": "1.2.3", "isows": "1.0.7", "ox": "0.14.57", "ws": "8.21.0" }, "peerDependencies": { "typescript": ">=5.0.4" }, "optionalPeers": ["typescript"] }, "sha512-kvcBGXzIGmZu3GqaA83ZOLzVC57YO7WCgQrGcUHNKqZ8Cjqc9vV//uGna4Nhv0NGHn2gekw1FNdSvQePNnYePQ=="],
 
     "webidl-conversions": ["webidl-conversions@3.0.1", "", {}, "sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ=="],
 
