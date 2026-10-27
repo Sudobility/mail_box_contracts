@@ -1,7 +1,10 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "dist/solana"
+    "ignoreDeprecations": "6.0",
+    "outDir": "dist/solana",
+    "rootDir": "./src",
+    "types": ["node"]
   },
   "include": ["src/solana/**/*", "target/types/**/*"],
   "exclude": ["node_modules", "dist", "src/evm", "src/unified"]

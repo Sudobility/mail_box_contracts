@@ -1,8 +1,10 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
     "outDir": "dist/evm",
-    "module": "commonjs"
+    "module": "commonjs",
+    "rootDir": "."
   },
   "include": ["src/evm/**/*", "typechain-types/**/*"],
   "exclude": ["node_modules", "dist", "src/solana", "src/unified"]

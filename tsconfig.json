@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
     "target": "es2020",
     "module": "commonjs",
     "esModuleInterop": true,
@@ -12,7 +13,8 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "jsx": "react"
+    "jsx": "react",
+    "rootDir": "."
   },
   "include": ["./src/**/*", "./typechain-types/**/*"],
   "exclude": ["./test/**/*", "./scripts/**/*", "node_modules", "dist"]

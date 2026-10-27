@@ -5,10 +5,11 @@
     "module": "ESNext",
     "target": "ES2020",
     "moduleResolution": "node10",
-    "ignoreDeprecations": "5.0",
+    "ignoreDeprecations": "6.0",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "jsx": "react"
+    "jsx": "react",
+    "rootDir": "."
   },
   "include": [
     "src/unified/**/*",

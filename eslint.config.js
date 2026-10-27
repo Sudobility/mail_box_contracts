@@ -44,6 +44,8 @@ export default [
       },
     },
     rules: {
+      'preserve-caught-error': 'off',
+      'no-useless-assignment': 'off',
       // General JavaScript/Node.js
       'no-console': 'off', // Allow console.log for development
       'prefer-const': 'error',
@@ -67,6 +69,8 @@ export default [
       '@typescript-eslint': tsPlugin,
     },
     rules: {
+      'preserve-caught-error': 'off',
+      'no-useless-assignment': 'off',
       ...tsPlugin.configs.recommended.rules,
       'no-console': 'off',
       '@typescript-eslint/no-unused-vars': [
@@ -82,6 +86,8 @@ export default [
   {
     files: ['**/*.test.ts', '**/*.spec.ts'],
     rules: {
+      'preserve-caught-error': 'off',
+      'no-useless-assignment': 'off',
       // More lenient rules for test files
       'no-unused-expressions': 'off', // For chai assertions
       '@typescript-eslint/no-unused-expressions': 'off', // For chai assertions
@@ -91,6 +97,8 @@ export default [
   {
     files: ['scripts/**/*.ts', 'examples/**/*.ts'],
     rules: {
+      'preserve-caught-error': 'off',
+      'no-useless-assignment': 'off',
       // Allow console.log in scripts and examples
       'no-console': 'off',
       '@typescript-eslint/no-unused-vars': 'off', // Allow unused vars in examples/scripts
