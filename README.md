@@ -80,15 +80,26 @@ import { OnchainMailerClient } from '@sudobility/contracts/react-native';
 
 ## Development
 
+Prerequisites: [Bun](https://bun.sh) (package manager + task runner), Node >= 20.18.0. Building/testing the Solana program also requires a Rust toolchain (`cargo`).
+
 ```bash
 bun install
 bun run compile            # Compile EVM contracts (generates typechain-types/)
 bun run build              # Build all targets (EVM + Solana + unified + react-native)
-bun test                   # Run all tests (EVM + Solana + unified)
+
+# Tests (there is no `bun test` aggregate script — use the scripts below):
+bun run test:unit          # EVM (Hardhat) + unified TS tests
+bun run test:solana        # Solana program tests (cargo test; needs Rust)
+bun run test:evm           # EVM contract tests only
+
 bun run typecheck          # TypeScript checking
 bun run lint               # ESLint
 bun run format             # Prettier
 ```
+
+> Note: `compile:solana` / `deploy:solana` scripts invoke the Anchor CLI, but the Solana
+> program is a **native** program (no Anchor, no `Anchor.toml`). For local work use
+> `bun run build:solana` (cargo build) and `bun run test:solana` (cargo test).
 
 ### Deployment
 
