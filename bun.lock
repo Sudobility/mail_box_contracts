@@ -18,9 +18,9 @@
         "@solana/spl-token": "~0.4.15",
         "@solana/wallet-adapter-base": "~0.9.28",
         "@solana/web3.js": "~1.99.0",
-        "@sudobility/configs": "^0.0.86",
-        "@sudobility/mail_box_types": "^1.0.36",
-        "@sudobility/types": "^1.10.1",
+        "@sudobility/configs": "^0.0.87",
+        "@sudobility/mail_box_types": "^1.0.37",
+        "@sudobility/types": "^1.10.2",
         "@tanstack/react-query": "~5.104.5",
         "@typechain/hardhat": "~9.1.0",
         "@types/chai": "~5.2.3",
@@ -50,9 +50,9 @@
       "peerDependencies": {
         "@solana/spl-token": ">=0.4.0",
         "@solana/web3.js": ">=1.95.0",
-        "@sudobility/configs": "^0.0.86",
-        "@sudobility/mail_box_types": "^1.0.36",
-        "@sudobility/types": "^1.10.1",
+        "@sudobility/configs": "^0.0.87",
+        "@sudobility/mail_box_types": "^1.0.37",
+        "@sudobility/types": "^1.10.2",
         "@tanstack/react-query": ">=5.0.0",
         "buffer": ">=6.0.0",
         "react": "^18.0.0 || ^19.0.0",
@@ -404,11 +404,11 @@
 
     "@solidity-parser/parser": ["@solidity-parser/parser@0.20.2", "", {}, "sha512-rbu0bzwNvMcwAjH86hiEAcOeRI2EeK8zCkHDrFykh/Al8mvJeFmjy3UrE7GYQjNwOgbGUUtCn5/k8CB8zIu7QA=="],
 
-    "@sudobility/configs": ["@sudobility/configs@0.0.86", "https://npm.pkg.github.com/download/@sudobility/configs/0.0.86/5b38c82a576bb7e0daa15e23961f170b0c8c795c", { "peerDependencies": { "@sudobility/types": "^1.10.1" } }, "sha512-6Hh6SuK8LjgZYAFffkEvC2rKkLucXnOFnwimg6+77VlrEIOOEtp2S8dCRhId2etgWjjkeUI3CsAFJXxC+hv2Gw=="],
+    "@sudobility/configs": ["@sudobility/configs@0.0.87", "https://npm.pkg.github.com/download/@sudobility/configs/0.0.87/c86b66a6b7ef4bc10e7d1ed1358cce47f4f1b26a", { "peerDependencies": { "@sudobility/types": "^1.10.2" } }, "sha512-kp/q+ElHveHwGPpUwGb6UdJlL4RdM3qAEsjAH0Ubhz25gIUc/a3WFvBsw7HdKCr3qkVk3gc+Sr7Uao0md+qzfQ=="],
 
-    "@sudobility/mail_box_types": ["@sudobility/mail_box_types@1.0.36", "https://npm.pkg.github.com/download/@sudobility/mail_box_types/1.0.36/2e489b560d8185e5bc24d0c5f90b224f36ce38db", { "peerDependencies": { "@sudobility/types": "^1.10.1" } }, "sha512-6kjCZ6Vs1O5WRq6IyP9WaQCAYX2wno51QfTzLhcDkLjXoTlFveZuDxxzB7XKaXUTL31FVYWdLd5H426EmTbtRA=="],
+    "@sudobility/mail_box_types": ["@sudobility/mail_box_types@1.0.37", "https://npm.pkg.github.com/download/@sudobility/mail_box_types/1.0.37/79bdb1ff6cb9ed7b30d268c6bee03ab0b14bdd8d", { "peerDependencies": { "@sudobility/types": "^1.10.2" } }, "sha512-qHbOQs5iGsrtAbqEIykz8vO/kyOmxYa9ymb/mQnl95k5MdjzH6+2KE/14cV4/ho3eNB4KcOQdzBMcfPRWcC5XA=="],
 
-    "@sudobility/types": ["@sudobility/types@1.10.1", "https://npm.pkg.github.com/download/@sudobility/types/1.10.1/8e353f55822e0bc3fa9555dfe3aee593e140c012", {}, "sha512-LmJyjDDY5rHDET1wstkT0i59SSOrOXijL2iqrgfcK6VHtKcBEw7FFpbw4CyHn+dhR9kqkYpEydSfypoqw7crMg=="],
+    "@sudobility/types": ["@sudobility/types@1.10.2", "https://npm.pkg.github.com/download/@sudobility/types/1.10.2/c25e0a0122786dbd23651b15aab022c02c3a5a5e", {}, "sha512-CjMjxeoWE+WMt7HWPWFwcjmjXEbwS9ZPnoa6tN8dBzQSWCaCTZBIfjDDk7xwi+9/2OOxVaorDEHNOZTqSdUxvA=="],
 
     "@swc/helpers": ["@swc/helpers@0.5.23", "", { "dependencies": { "tslib": "^2.8.0" } }, "sha512-5lSsMOTXURePglDfvuAQUqkGek9Hg2kksOYay2m0+XR++b2NWYL/4sWyuvVBIs8oKnJaxkdi9whaL/sqN13afw=="],
 
